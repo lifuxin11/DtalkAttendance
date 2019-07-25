@@ -13,7 +13,7 @@ import javax.persistence.*;
  */
 @Entity
 @ApiModel(value = "用户")
-@Table(name = "tb_auth_user", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_auth_user", schema = "dbo", catalog = "dingtalk")
 public class AuthUser {
     @ApiModelProperty(value = "主键id")
     private Integer id;

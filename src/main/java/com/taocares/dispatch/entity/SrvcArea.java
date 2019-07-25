@@ -15,7 +15,7 @@ import java.sql.Timestamp;
  */
 @Entity
 @ApiModel(value = "服务区域")
-@Table(name = "tb_srvc_area", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_srvc_area", schema = "dbo", catalog = "dingtalk")
 @JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
 public class SrvcArea {
     @ApiModelProperty(value = "主键id")

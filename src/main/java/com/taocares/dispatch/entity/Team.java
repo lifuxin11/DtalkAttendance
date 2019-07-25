@@ -15,7 +15,7 @@ import java.util.List;
  * @date 2018/09/30
  */
 @Entity
-@Table(name = "tb_dispatch_team", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_dispatch_team", schema = "dbo", catalog = "dingtalk")
 @JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler", "fieldHandler"})
 public class Team {
     private Integer id;

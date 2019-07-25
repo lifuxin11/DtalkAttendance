@@ -13,12 +13,12 @@ import java.util.Date;
  * @date 2018/09/30
  */
 @Entity
-@Table(name = "tb_dispatch_attendance_state", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_dispatch_attendance_state", schema = "dbo", catalog = "dingtalk")
 public class AttendanceState {
     private Integer id;
-    @NotBlank(message="parameter error")
+//    @NotBlank(message="parameter error")
     private String name;
-    @NotBlank(message="parameter error")
+//    @NotBlank(message="parameter error")
     private String shortName;
     private String color;
     private Date createTime;

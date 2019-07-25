@@ -16,7 +16,7 @@ import java.util.Date;
  * @date 2018/10/29
  */
 @Entity
-@Table(name = "tb_dispatch_leave", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_dispatch_leave", schema = "dbo", catalog = "dingtalk")
 @JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler", "fieldHandler"})
 public class Leave {
     private Integer id;

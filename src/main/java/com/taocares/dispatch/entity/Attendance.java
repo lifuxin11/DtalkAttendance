@@ -14,7 +14,7 @@ import java.util.Date;
  * @date 2018/09/30
  */
 @Entity
-@Table(name = "tb_dispatch_attendance", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_dispatch_attendance", schema = "dbo", catalog = "dingtalk")
 public class Attendance {
     private Integer id;
     private AttendanceState attendanceState;

@@ -13,15 +13,15 @@ import java.util.List;
  * @date 2018/09/30
  */
 @Entity
-@Table(name = "tb_dispatch_institution", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_dispatch_institution", schema = "dbo", catalog = "dingtalk")
 @JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler", "fieldHandler"})
 public class Institution {
     private Integer id;
-    @NotBlank(message="parameter error")
+//    @NotBlank(message="parameter error")
     private String name;
-    @NotBlank(message="parameter error")
+//    @NotBlank(message="parameter error")
     private String workday;
-    @NotBlank(message="parameter error")
+//    @NotBlank(message="parameter error")
     private String playday;
 
     private List<AttendanceState> attendanceStates;

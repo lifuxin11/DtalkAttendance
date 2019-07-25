@@ -11,7 +11,7 @@ import javax.persistence.*;
  * @date 2018/10/17
  */
 @Entity
-@Table(name = "tb_dispatch_institution_state", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_dispatch_institution_state", schema = "dbo", catalog = "dingtalk")
 @JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler", "fieldHandler"})
 public class InstitutionState {
     private Integer id;

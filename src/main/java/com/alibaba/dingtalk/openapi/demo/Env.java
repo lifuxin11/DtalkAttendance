@@ -9,8 +9,8 @@ public class Env {
     /**
      * 企业应用接入秘钥相关
      */
-    public static final String CORP_ID = "dingq7u4z8b8v4oxrzyp";
-    public static final String CORP_SECRET = "E4R2_vkYfzpvMBvalimuD42t3g6-UCpvY3Qc48JQCOeKNQN1NJOP2dg3kQuSKOAK";
+    public static final String CORP_ID = "ding1doknnt24zhhp1cn";
+    public static final String CORP_SECRET = "nFvaU1nKNeB7N3r8PZLmyA45DXq5LqRvtwdg_OHl8W0HJ8akqKY4yqddUPro8VAV";
     public static final String SSO_Secret = "";
 
     /**

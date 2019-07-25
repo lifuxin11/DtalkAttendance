@@ -10,12 +10,12 @@ import javax.validation.constraints.NotNull;
  * @date 2018/10/17
  */
 @Entity
-@Table(name = "tb_user_institution", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_user_institution", schema = "dbo", catalog = "dingtalk")
 public class UserInstitution {
     private Integer id;
-    @NotNull(message="parameter error")
+//    @NotNull(message="parameter error")
     private Integer userId;
-    @NotNull(message="parameter error")
+//    @NotNull(message="parameter error")
     private Integer institutionId;
 
 

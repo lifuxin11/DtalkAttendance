@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
  * @date 2018/09/30
  */
 @Entity
-@Table(name = "tb_dispatch_user_team", schema = "dbo", catalog = "viptest")
+@Table(name = "tb_dispatch_user_team", schema = "dbo", catalog = "dingtalk")
 public class UserTeam {
     private int id;
     @NotNull(message="parameter error")
