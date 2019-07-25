@@ -2,10 +2,10 @@ server:
   port: 8866
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://219.146.67.235:40000/dingtalk?serverTimezone=UTC&characterEncoding=UTF-8
-    username: root
-    password: 1234
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.163.38:1433;DatabaseName=dingtalk?serverTimezone=UTC&characterEncoding=UTF-8
+    username: sa
+    password: System2017
   jpa:
     hibernate:
       ddl-auto: update
