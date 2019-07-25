@@ -1,4 +1,4 @@
-package com.wellCh4n.dingtalk.Servlet;
+package com.taocares.attendance.Servlet;
 
 import com.alibaba.dingtalk.openapi.demo.auth.AuthHelper;
 import com.alibaba.dingtalk.openapi.demo.user.UserHelper;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author wellCh4n
+ * @author LFX
  * @DESCRIPTION
- * @create 2017/11/15 17:02
+ * @create
  */
 @RestController
 public class UserInfoServlet {
