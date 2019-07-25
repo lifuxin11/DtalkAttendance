@@ -1,9 +1,8 @@
 package com.taocares.dispatch.entity;
 
-import org.springframework.format.annotation.DateTimeFormat;
+import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
 import java.util.Date;
 
 
