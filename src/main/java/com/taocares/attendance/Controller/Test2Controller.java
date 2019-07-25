@@ -1,4 +1,4 @@
-package com.wellCh4n.dingtalk.Controller;
+package com.taocares.attendance.Controller;
 
 import com.alibaba.dingtalk.openapi.demo.OApiException;
 import com.alibaba.dingtalk.openapi.demo.auth.AuthHelper;
@@ -17,9 +17,9 @@ import java.util.Map;
 import static com.alibaba.dingtalk.openapi.demo.department.DepartmentHelper.listDepartments;
 
 /**
- * @author wellCh4n
+ * @author LFX
  * @DESCRIPTION
- * @create 2017/11/17 14:01
+ * @create
  */
 
 @Controller

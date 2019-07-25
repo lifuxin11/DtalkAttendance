@@ -1,4 +1,4 @@
-package com.wellCh4n.dingtalk;
+package com.taocares.attendance;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
